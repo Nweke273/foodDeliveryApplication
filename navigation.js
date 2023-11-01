@@ -12,7 +12,7 @@ const Navigation = () => {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home" screenOptions={{headerShown:false}}>
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Restaurant" component={RestaurantScreen} />
+        <Stack.Screen name="restaurant" component={RestaurantScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
