@@ -34,7 +34,7 @@ const DishRow = ({ dish }) => {
                   width={20}
                 />
               </TouchableOpacity>
-
+              <Text className="mx-4">4</Text>
               <TouchableOpacity
                 className="p-1 rounded-full"
                 style={{ backgroundColor: themeColors.bgColor(1) }}

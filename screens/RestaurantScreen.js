@@ -21,8 +21,8 @@ const RestaurantScreen = () => {
   let item = params;
   return (
     <View>
+      {/* <Statusbar style="light" /> */}
       <CartIcon />
-
       <ScrollView>
         <View className="relative">
           <Image source={item.image} className="w-full h-72" />
