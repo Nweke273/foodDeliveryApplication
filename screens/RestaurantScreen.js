@@ -61,7 +61,7 @@ const RestaurantScreen = () => {
           </View>
           <Text className="mx-4 my-2">{item.description}</Text>
         </View>
-        <View className="pb-36 bg-red-400">
+        <View className="pb-36 bg-white-600">
           <Text className="px-4 py-4 text-2xl font-bold">Menu</Text>
           {item.dishes.map((dish, index) => {
             return <DishRow key={index} dish={dish} />;
